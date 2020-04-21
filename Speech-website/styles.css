@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(44, 140, 161), rgb(46, 66, 160));
+  font-family: sans-serif;
+  color: white;
+}
+.talk {
+  background: gainsboro;
+  width: 180px;
+  padding: 4px 0;
+  margin-top: 3%;
+  border-radius: 12px;
+}
+.top,
+.bottom {
+  height: 20vh;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
